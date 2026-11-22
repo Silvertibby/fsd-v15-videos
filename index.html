@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FSD v15 videos</title>
+  <meta name="description" content="A growing collection of Tesla Full Self-Driving version 15 videos posted on X.">
+  <meta name="referrer" content="no-referrer">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23000'/%3E%3Cpath d='M8 34h48v4H8zm10-10h28l-4-8H22z' fill='%23e82127'/%3E%3Ccircle cx='20' cy='40' r='5' fill='%23eee'/%3E%3Ccircle cx='44' cy='40' r='5' fill='%23eee'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="site-header">
+    <p class="eyebrow">Tesla Full Self-Driving</p>
+    <h1>FSD v15 videos</h1>
+    <p class="lede">Videos of Tesla FSD version 15, collected from X as they appear.</p>
+    <p class="meta" id="meta" hidden>
+      <span id="count"></span>
+      <span class="dot" aria-hidden="true"></span>
+      <span id="updated"></span>
+    </p>
+  </header>
+
+  <main>
+    <p id="status" class="status" hidden></p>
+    <section id="feed" class="feed" aria-live="polite"></section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Unofficial collection. Videos stay with their original posts on X. Updated about once an hour.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
