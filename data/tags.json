@@ -1,0 +1,57 @@
+[
+  {
+    "id": "official-announcement",
+    "label": "Official / announcement",
+    "definition": "Tesla or Elon Musk’s official FSD v15 announcement footage, or a first-party rollout clip."
+  },
+  {
+    "id": "reality-view",
+    "label": "Reality View / visualization",
+    "definition": "The new FSD v15 Reality View or other in-car visualization, including photorealistic rendering, chevrons, and camera views."
+  },
+  {
+    "id": "parking",
+    "label": "Parking",
+    "definition": "Parking into a space, choosing a spot on screen, garage parking or leaving a garage, or an overhead parking view."
+  },
+  {
+    "id": "highway",
+    "label": "Highway",
+    "definition": "Highway or freeway driving, including floating navigation arrows on the highway."
+  },
+  {
+    "id": "city-streets",
+    "label": "City streets",
+    "definition": "City or residential street driving, including streetcars, downtown streets, or neighborhood roads."
+  },
+  {
+    "id": "intersections",
+    "label": "Intersections",
+    "definition": "Intersections and roundabouts, including turn arrows drawn at a junction."
+  },
+  {
+    "id": "blind-spot",
+    "label": "Blind spot",
+    "definition": "Reality View filling in or highlighting the driver’s blind spots."
+  },
+  {
+    "id": "night-weather",
+    "label": "Night / weather",
+    "definition": "Night driving, seasonal lighting such as Christmas decorations, rain, or other weather."
+  },
+  {
+    "id": "construction-obstacles",
+    "label": "Construction / obstacles",
+    "definition": "Potholes, road cracks, debris, standing water, or construction in the visualization or in the drive."
+  },
+  {
+    "id": "robotaxi",
+    "label": "Robotaxi / unsupervised",
+    "definition": "Robotaxi, Cybercab, or unsupervised driving footage."
+  },
+  {
+    "id": "general-driving",
+    "label": "General driving",
+    "definition": "FSD v15 actually driving when no more specific scene tag applies. This is the fallback tag."
+  }
+]

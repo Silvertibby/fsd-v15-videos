@@ -22,6 +22,20 @@
   </header>
 
   <main>
+    <section class="controls" id="controls" hidden>
+      <div class="search-row">
+        <label class="visually-hidden" for="search">Search videos</label>
+        <input type="search" id="search" placeholder="Search captions, tags, authors, or post text" autocomplete="off" enterkeyhint="search">
+        <button type="button" id="clear" hidden>Clear</button>
+      </div>
+      <p class="filter-meta" id="filter-meta" hidden></p>
+      <div class="tag-bar" id="tag-bar" role="toolbar" aria-label="Filter by tag"></div>
+      <div class="match-row" id="match-row" hidden>
+        <span class="match-label">Match</span>
+        <button type="button" id="match-any" aria-pressed="true">Any selected tag</button>
+        <button type="button" id="match-all" aria-pressed="false">All selected tags</button>
+      </div>
+    </section>
     <p id="status" class="status" hidden></p>
     <section id="feed" class="feed" aria-live="polite"></section>
   </main>
